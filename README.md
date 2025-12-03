@@ -6,8 +6,8 @@
 ---
 
 ### 🌟 About Me  
-- 🔭 I’m currently working on *Web Development*
-- 🌱 I’m learning *HTML, CSS, Python, C , JS *
+- 🔭 I’m currently working on Web Development
+- 🌱 I’m learning  HTML, CSS, Python, C , JS 
 - 🤝 I’m looking to collaborate on *Open Source Projects*
 - 📫 How to reach me: *ashiksjc2025@gmail.com*
 
@@ -21,7 +21,7 @@
 
 ---
 
-### 💻 Languages & Tools  
+### 💻 Languages 
 <p align="left">
   <img src="https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white" />
