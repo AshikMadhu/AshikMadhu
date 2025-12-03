@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<h1 align="center">Hi 👋, I am Ashik Madhu...<span style="color:red;">Ashik Madhu</span></h1>
+<h1 align="center">I am Ashik Madhu...<span style="color:red;"></span></h1>
 <h3 align="center"> BTech Student | SJCET Palai | Tech Enthusiast</h3>
 
 ---
@@ -32,7 +32,4 @@
 ---
 
 
-### ✨ Animated Text
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=25&lines=Welcome+to+my+GitHub+Profile!; I am Ashik Madhu...; Tech Enthusiast" />
-</p>
+
