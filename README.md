@@ -31,22 +31,8 @@
 
 ---
 
-### 📊 GitHub Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR-GITHUB-USERNAME&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=tokyonight" />
-</p>
-
----
 
 ### ✨ Animated Text
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=25&lines=Welcome+to+my+GitHub+Profile!;I+love+coding+💻;I+love+learning+new+tech+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=25&lines=Welcome+to+my+GitHub+Profile!; I am Ashik Madhu...; Tech Enthusiast" />
 </p>
