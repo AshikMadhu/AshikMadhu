@@ -8,7 +8,7 @@
 ### 🌟 About Me  
 - 🔭 I’m currently working on Web Development
 - 🌱 I’m learning  HTML, CSS, Python, C , JS 
-- 🤝 I’m looking to collaborate on *Open Source Projects*
+- 🤝 I’m looking to collaborate on Web Development
 - 📫 How to reach me: *ashiksjc2025@gmail.com*
 
 
