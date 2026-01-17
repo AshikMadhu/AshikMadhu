@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 <h1 align="center">I am Ashik Madhu</h1>
-<h3 align="center">First Year CSE Student | BTech | SJCET Palai | Tech Enthusiast</h3>
+<h3 align="center">First Year CSE Student | BTech | SJCET Palai </h3>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
