@@ -5,8 +5,10 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=550&lines=First+Year+CSE+Student;St+Joseph's+College+of+Engineering+and+Technology+Palai
-;Learning+CS+Fundamentals" />
+    <img 
+      src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=700&lines=First+Year+CSE+Student;Learning+New+Technologies;St+Joseph's+College+of+Engineering+%26+Technology+Palai" 
+      alt="Typing SVG" 
+    />
   </a>
 </p>
 
@@ -40,6 +42,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
+## 📊 GitHub Stats  
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=AshikMadhu&show_icons=true&theme=tokyonight&rank_icon=github&cache_seconds=86400" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
 ## 📈 Contribution Graph  
 
@@ -47,4 +56,4 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
-⭐ *As a first-year CSE student, I am focused on building strong fundamentals and improving consistently.*
+⭐ *As a first-year CSE student, I am focused on learning core computer science concepts and improving consistently.*
