@@ -42,13 +42,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
-## 📊 GitHub Stats  
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=AshikMadhu&show_icons=true&theme=tokyonight&rank_icon=github&cache_seconds=86400" />
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
 ## 📈 Contribution Graph  
 
