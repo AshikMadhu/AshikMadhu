@@ -43,9 +43,9 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
 
-## 📈 Contribution Graph  
+# 📈 Contribution Graph  
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AshikMadhu&theme=tokyo-night)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AshikMadhu&theme=tokyo-night&hide_border=true&line=00C6FF&point=8A2BE2&area=true)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
