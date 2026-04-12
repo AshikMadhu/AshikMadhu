@@ -1,52 +1,135 @@
-## Hi there 👋
+<!-- 🌈 HEADER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=ASHIK%20MADHU&fontAlign=50&fontAlignY=38&fontColor=ffffff&color=0:ff00cc,50:3333ff,100:00ffee&animation=fadeIn"/>
+</p>
 
-<h1 align="center">I am Ashik Madhu</h1>
-<h3 align="center">First Year CSE Student | BTech | SJCET Palai </h3>
+<h1 align="center">✨ Ashik Madhu ✨</h1>
+<h3 align="center">🚀 First Year CSE Student</h3>
+
+---
+
+<!-- 🧠 TYPING -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&center=true&vCenter=true&width=850&lines=Creative+Developer+;Building+Modern+Web+Experiences;Learning+Everyday+;Turning+Ideas+into+Reality"/>
+</p>
+
+---
+
+<!-- 🌐 BUTTONS -->
+<p align="center">
+  <a href="https://portfolio-five-rho-yeokzng46q.vercel.app">
+    <img src="https://img.shields.io/badge/🌐%20Portfolio-ff00cc?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/ashik-madhu-6b7695385/">
+    <img src="https://img.shields.io/badge/LinkedIn-3333ff?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+## ⚡ Developer Dashboard  
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img 
-      src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=700&lines=Hi+there...+👋;I+am+Ashik+Madhu;First+Year+CSE+Student;St+Joseph's+College+of+Engineering+%26+Technology+Palai;Learning+New+Technologies;" 
-      alt="Typing SVG" 
-    />
-  </a>
+<table width="100%">
+<tr>
+
+<td width="50%" valign="top">
+
+### 🧾 Profile  
+
+```yaml
+Name        : Ashik Madhu
+Role        : CSE Student
+Craft       : Web Experiences
+Trajectory  : Complete Systems
+Status      : Active 🚀
+```
+
+</td>
+
+
+</tr>
+</table>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
-
-## 🌟 About Me  
-
-- 🔭 Currently working on **Web Development**
-- 🌱 I’m learning **HTML, CSS, Python, C, C++, JavaScript**
-- 🎓 **First Year Computer Science Engineering Student**
-- 🤝 Looking to collaborate on **beginner-friendly projects**
-- 📫 Reach me at: **ashiksjc2025@gmail.com**
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
-
-## 🔗 Connect With Me  
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/ashik-madhu-6b7695385/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
+---
 
 ## 💻 Tech Stack  
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,c,cpp,figma&theme=dark" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,c,cpp,figma&theme=dark"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-ff00cc?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Programming-3333ff?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Design-00ffee?style=for-the-badge"/>
+</p>
 
+---
 
-# 📈 Contribution Graph  
+## 🌟 About Me  
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AshikMadhu&theme=tokyo-night&hide_border=true&line=00C6FF&point=8A2BE2&area=true)
+<p align="center">
+  <img height="160" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
+<p align="center">
 
-⭐ *As a first-year CSE student, I am focused on learning core computer science concepts and improving consistently.*
+🔭 Currently working on **Crafting modern web experiences**  
+🌱 Learning **HTML, CSS, JavaScript, Python, C, C++**  
+🎓 First Year **Computer Science Engineering Student**  
+🤝 Open to collaborate on **beginner-friendly projects**  
+📫 **ashiksjc2025@gmail.com**
+
+</p>
+
+---
+
+## 📊 GitHub Stats  
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=AshikMadhu&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=AshikMadhu&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 📈 Contribution Activity  
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AshikMadhu&theme=tokyo-night&hide_border=true&area=true&line=00f5ff&point=ff00cc&area_color=3333ff&bg_color=0d1117"/>
+</p>
+
+---
+
+## 💻 Terminal  
+
+<p align="center">
+
+```bash
+> whoami
+Ashik Madhu
+
+> skills
+HTML CSS JavaScript Python C C++
+
+> trajectory
+Shaping ideas into thoughtful digital experiences
+
+> philosophy
+Code • Learn • Build • Refine
+```
+
+</p>
+
+---
+
+<!-- 🌈 FOOTER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:ff00cc,50:3333ff,100:00ffee"/>
+</p>
+
+---
+
+⭐ *Driven by curiosity. Focused on growth. Building consistently.*  
