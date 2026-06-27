@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=ASHIK%20MADHU&fontAlign=50&fontAlignY=38&fontColor=ffffff&color=0:ff00cc,50:3333ff,100:00ffee&animation=fadeIn"/>
 </p>
 
-<h3 align="center">✨  First Year CSE Student ✨ </h3>
+<h3 align="center">✨ CSE Student ✨ </h3>
 
 ---
 
