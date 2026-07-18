@@ -80,7 +80,7 @@
     .orb-1 { animation: pulse-orb 15s ease-in-out infinite; transform-origin: 200px 200px; }
     .orb-2 { animation: pulse-orb 18s ease-in-out infinite alternate; transform-origin: 1000px 500px; }
 
-    /* Stars & Sparkles */
+    /* Stars and Sparkles */
     @keyframes twinkle {
       0%, 100% { opacity: 0.2; transform: scale(0.8); }
       50% { opacity: 1; transform: scale(1.2); }
@@ -103,7 +103,7 @@
     .p-3 { animation-delay: 4.5s; left: 250px; }
     .p-4 { animation-delay: 6s; left: 950px; }
 
-    /* Vector Name stroke & fill animation */
+    /* Vector Name stroke and fill animation */
     .name-vector path {
       fill: url(#neon-grad);
       fill-opacity: 0;
@@ -172,7 +172,7 @@
     }
     .tagline { animation: reveal-quote 2.5s cubic-bezier(0.4, 0, 0.2, 1) 2.0s forwards; clip-path: inset(0 100% 0 0); }
 
-    /* Hologram Scan Sweep Line & Effect */
+    /* Hologram Scan Sweep Line and Effect */
     @keyframes hologram-sweep {
       0% { transform: translateY(-50px); opacity: 0; }
       5% { opacity: 1; }
@@ -188,7 +188,7 @@
     }
     .one-time-line { animation: one-time-reveal-line 2s cubic-bezier(0.4, 0, 0.2, 1) 0.5s forwards; }
 
-    /* Tech Stack Pills Fade In & Hover */
+    /* Tech Stack Pills Fade In and Hover */
     @keyframes fade-scale-in {
       0% { opacity: 0; transform: translateY(10px) scale(0.95); }
       100% { opacity: 1; transform: translateY(0) scale(1); }

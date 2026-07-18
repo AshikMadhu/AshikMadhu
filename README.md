@@ -27,21 +27,26 @@
     </a>
   </p>
 
-  <hr width="80%" style="border: 1px solid rgba(255, 75, 145, 0.2);">
-
-  <!-- Local Stat & Language Cards Grid -->
-  <h3>📊 Performance Metrics &amp; Tech Stack</h3>
-  
-  <p>
-    <img src="stats.svg?v=1" alt="Ashik's GitHub Stats" width="440" align="center">&nbsp;&nbsp;
-    <img src="langs.svg?v=1" alt="Ashik's Language Stats" width="440" align="center">
-  </p>
+  <table border="0" align="center" width="100%">
+    <tr align="center">
+      <td>
+        <img src="stats.svg?v=1" alt="Ashik's GitHub Stats" width="440">
+      </td>
+      <td>
+        <img src="langs.svg?v=1" alt="Ashik's Language Stats" width="440">
+      </td>
+    </tr>
+  </table>
   
   <br>
   
-  <p>
-    <img src="trophies.svg?v=1" alt="Ashik's Profile Achievements" width="900" align="center">
-  </p>
+  <table border="0" align="center" width="100%">
+    <tr align="center">
+      <td>
+        <img src="trophies.svg?v=1" alt="Ashik's Profile Achievements" width="900">
+      </td>
+    </tr>
+  </table>
 
   <br>
   <hr width="80%" style="border: 1px solid rgba(255, 75, 145, 0.2);">
