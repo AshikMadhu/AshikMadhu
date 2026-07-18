@@ -26,17 +26,17 @@
     .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     
-    /* Loading language progress bars (Explicit keyframes, no CSS variables) */
-    @keyframes load-bar-js {{ from {{ width: 0px; }} to {{ width: 220px; }} }}
-    @keyframes load-bar-py {{ from {{ width: 0px; }} to {{ width: 190px; }} }}
-    @keyframes load-bar-htmlcss {{ from {{ width: 0px; }} to {{ width: 155px; }} }}
-    @keyframes load-bar-cpp {{ from {{ width: 0px; }} to {{ width: 108px; }} }}
-    @keyframes load-bar-figma {{ from {{ width: 0px; }} to {{ width: 132px; }} }}
+    /* Loading language progress bars based on actual repo count */
+    @keyframes load-bar-py {{ from {{ width: 0px; }} to {{ width: 154px; }} }} /* 35% */
+    @keyframes load-bar-htmlcss {{ from {{ width: 0px; }} to {{ width: 220px; }} }} /* 50% */
+    @keyframes load-bar-c {{ from {{ width: 0px; }} to {{ width: 66px; }} }} /* 15% */
+    @keyframes load-bar-js {{ from {{ width: 0px; }} to {{ width: 44px; }} }} /* 10% */
+    @keyframes load-bar-figma {{ from {{ width: 0px; }} to {{ width: 132px; }} }} /* 30% Design */
 
-    .bar-js {{ animation: load-bar-js 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
     .bar-py {{ animation: load-bar-py 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
     .bar-htmlcss {{ animation: load-bar-htmlcss 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
-    .bar-cpp {{ animation: load-bar-cpp 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
+    .bar-c {{ animation: load-bar-c 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
+    .bar-js {{ animation: load-bar-js 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
     .bar-figma {{ animation: load-bar-figma 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
     
     /* Fading in text delays */
@@ -57,15 +57,15 @@
   
   <g transform="translate(25, 0)" class="font-sans">
     <!-- Header -->
-    <text x="0" y="32" font-size="14" font-weight="900" fill="#ffffff" letter-spacing="1.5">MOST USED LANGUAGES</text>
+    <text x="0" y="32" font-size="14" font-weight="900" fill="#ffffff" letter-spacing="1.5">REAL TOP LANGUAGES</text>
     <line x1="0" y1="42" x2="398" y2="42" stroke="#00ff87" stroke-width="1" opacity="0.3" />
     
-    <!-- JavaScript -->
+    <!-- HTML/CSS -->
     <g class="lang-item item-1" transform="translate(0, 68)">
-      <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">JavaScript</text>
+      <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">HTML &amp; CSS</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
-      <rect x="90" y="-10" height="8" rx="4" fill="#00f0ff" class="bar-js" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#00f0ff" class="font-mono" text-anchor="end">91.6%</text>
+      <rect x="90" y="-10" height="8" rx="4" fill="#00f0ff" class="bar-htmlcss" filter="url(#lang-glow)" />
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#00f0ff" class="font-mono" text-anchor="end">45.5%</text>
     </g>
 
     <!-- Python -->
@@ -73,31 +73,31 @@
       <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">Python</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
       <rect x="90" y="-10" height="8" rx="4" fill="#00ff87" class="bar-py" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#00ff87" class="font-mono" text-anchor="end">79.2%</text>
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#00ff87" class="font-mono" text-anchor="end">31.8%</text>
     </g>
 
-    <!-- CSS & HTML -->
+    <!-- C -->
     <g class="lang-item item-3" transform="translate(0, 120)">
-      <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">CSS &amp; HTML</text>
-      <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
-      <rect x="90" y="-10" height="8" rx="4" fill="#3b82f6" class="bar-htmlcss" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#3b82f6" class="font-mono" text-anchor="end">64.5%</text>
-    </g>
-
-    <!-- C++ -->
-    <g class="lang-item item-4" transform="translate(0, 146)">
       <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">C / C++</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
-      <rect x="90" y="-10" height="8" rx="4" fill="#0d9488" class="bar-cpp" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#0d9488" class="font-mono" text-anchor="end">45.0%</text>
+      <rect x="90" y="-10" height="8" rx="4" fill="#3b82f6" class="bar-c" filter="url(#lang-glow)" />
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#3b82f6" class="font-mono" text-anchor="end">13.6%</text>
     </g>
 
-    <!-- Figma -->
+    <!-- JavaScript / TypeScript -->
+    <g class="lang-item item-4" transform="translate(0, 146)">
+      <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">JS / TS</text>
+      <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
+      <rect x="90" y="-10" height="8" rx="4" fill="#0d9488" class="bar-js" filter="url(#lang-glow)" />
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#0d9488" class="font-mono" text-anchor="end">9.1%</text>
+    </g>
+
+    <!-- Figma UI/UX -->
     <g class="lang-item item-5" transform="translate(0, 172)">
-      <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">Figma UI/UX</text>
+      <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">Figma Design</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
       <rect x="90" y="-10" height="8" rx="4" fill="#84cc16" class="bar-figma" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#84cc16" class="font-mono" text-anchor="end">55.0%</text>
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#84cc16" class="font-mono" text-anchor="end">Design</text>
     </g>
   </g>
 </svg>
