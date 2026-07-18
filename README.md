@@ -38,16 +38,16 @@
 
   <!-- Live Dynamic GitHub Stats & Streak Cards in custom Cyan/Emerald (blue/green) theme -->
   <p align="center">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=AshikMadhu&show_icons=true&bg_color=020617&title_color=00ff87&text_color=cbd5e1&icon_color=00f0ff&hide_border=true" alt="Ashik's GitHub Stats">
+    <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AshikMadhu&show_icons=true&bg_color=020617&title_color=00ff87&text_color=cbd5e1&icon_color=00f0ff&hide_border=true" alt="Ashik's GitHub Stats">
     &nbsp;&nbsp;
-    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=AshikMadhu&background=020617&ring=00ff87&fire=00f0ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00f0ff&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="Ashik's Streak Stats">
+    <img height="180" src="https://streak-stats.demolab.com/?user=AshikMadhu&background=020617&ring=00ff87&fire=00f0ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00f0ff&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="Ashik's Streak Stats">
   </p>
   
   <br>
   
   <!-- Live Dynamic Top Languages Card -->
   <p align="center">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshikMadhu&layout=compact&bg_color=020617&title_color=00ff87&text_color=cbd5e1&icon_color=00f0ff&hide_border=true" alt="Ashik's Top Languages">
+    <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=AshikMadhu&layout=compact&bg_color=020617&title_color=00ff87&text_color=cbd5e1&icon_color=00f0ff&hide_border=true" alt="Ashik's Top Languages">
   </p>
 
   <br>
