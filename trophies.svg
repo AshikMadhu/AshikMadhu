@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 200" width="920" height="200">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0314" />
+      <stop offset="100%" stop-color="#1b0629" />
+    </linearGradient>
+    
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4b91" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#7a00f2" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Cells Highlight Gradient -->
+    <linearGradient id="cell-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+    
+    <!-- Diagonal Shine Gradient -->
+    <linearGradient id="shine-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    
+    <!-- Glowing Filter -->
+    <filter id="trophy-glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    
+    /* Cells Pop In Animation */
+    @keyframes pop-in {
+      0% { transform: scale(0.9); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .trophy-cell { opacity: 0; animation: pop-in 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+    .cell-1 { animation-delay: 0.1s; }
+    .cell-2 { animation-delay: 0.3s; }
+    .cell-3 { animation-delay: 0.5s; }
+
+    /* Shine Sweep Animation */
+    @keyframes shine-sweep {
+      0% { transform: translate(-300px, 0); }
+      30%, 100% { transform: translate(300px, 0); }
+    }
+    .shine-rect {
+      animation: shine-sweep 4s ease-in-out infinite;
+    }
+    .shine-delay-1 { animation-delay: 0.5s; }
+    .shine-delay-2 { animation-delay: 1.5s; }
+    .shine-delay-3 { animation-delay: 2.5s; }
+  </style>
+
+  <!-- Card Body -->
+  <rect x="1" y="1" width="918" height="198" rx="16" fill="url(#card-bg)" stroke="url(#border-grad)" stroke-width="1.5" />
+
+  <!-- Main Container -->
+  <g transform="translate(25, 0)" class="font-sans">
+    <!-- Header -->
+    <text x="0" y="32" font-size="14" font-weight="900" fill="#ffffff" letter-spacing="1.5">PROFILE ACHIEVEMENTS &amp; TROPHIES</text>
+    <line x1="0" y1="42" x2="868" y2="42" stroke="#ff4b91" stroke-width="1" opacity="0.3" />
+
+    <!-- Trophy Cell 1: Commits Master -->
+    <g class="trophy-cell cell-1" transform="translate(0, 60)">
+      <!-- Card background -->
+      <rect width="270" height="110" rx="12" fill="url(#cell-bg)" stroke="rgba(255, 75, 145, 0.2)" stroke-width="1" />
+      <!-- Golden Trophy Icon -->
+      <g transform="translate(20, 25)" filter="url(#trophy-glow)">
+        <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V19h3v2H7v-2h3v-2.07A6 6 0 0 1 6 11V6h12v5a6 6 0 0 1-5 5.93zM8 8H7V7h1zm0 2H7V9h1zm0 2H7v-1h1zm8-4h-1V7h1zm0 2h-1V9h1zm0 2h-1v-1h1z" fill="#ffb703" />
+      </g>
+      <!-- Title & Details -->
+      <text x="75" y="42" font-size="13" font-weight="bold" fill="#ffffff">Commits Master</text>
+      <text x="75" y="62" font-size="10.5" fill="#bcabbf">Rank: Gold (1,000+ Commits)</text>
+      <text x="75" y="80" font-size="10.5" fill="#ff4b91" font-weight="bold">TOP 2.5% CONTRIBUTOR</text>
+      
+      <!-- Shine layer -->
+      <g clip-path="url(#cell-clip-1)">
+        <rect width="270" height="110" fill="url(#shine-grad)" class="shine-rect shine-delay-1" pointer-events="none" />
+      </g>
+      <clipPath id="cell-clip-1"><rect width="270" height="110" rx="12" /></clipPath>
+    </g>
+
+    <!-- Trophy Cell 2: PR Champion -->
+    <g class="trophy-cell cell-2" transform="translate(299, 60)">
+      <rect width="270" height="110" rx="12" fill="url(#cell-bg)" stroke="rgba(212, 0, 212, 0.2)" stroke-width="1" />
+      <!-- Platinum/Blue Trophy Icon -->
+      <g transform="translate(20, 25)" filter="url(#trophy-glow)">
+        <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V19h3v2H7v-2h3v-2.07A6 6 0 0 1 6 11V6h12v5a6 6 0 0 1-5 5.93zM8 8H7V7h1zm0 2H7V9h1zm0 2H7v-1h1zm8-4h-1V7h1zm0 2h-1V9h1zm0 2h-1v-1h1z" fill="#00b4d8" />
+      </g>
+      <text x="75" y="42" font-size="13" font-weight="bold" fill="#ffffff">PR Champion</text>
+      <text x="75" y="62" font-size="10.5" fill="#bcabbf">Rank: Diamond (150+ Pull Requests)</text>
+      <text x="75" y="80" font-size="10.5" fill="#d400d4" font-weight="bold">TOP 5% COLLABORATOR</text>
+      
+      <!-- Shine layer -->
+      <g clip-path="url(#cell-clip-2)">
+        <rect width="270" height="110" fill="url(#shine-grad)" class="shine-rect shine-delay-2" pointer-events="none" />
+      </g>
+      <clipPath id="cell-clip-2"><rect width="270" height="110" rx="12" /></clipPath>
+    </g>
+
+    <!-- Trophy Cell 3: Clean Coder -->
+    <g class="trophy-cell cell-3" transform="translate(598, 60)">
+      <rect width="270" height="110" rx="12" fill="url(#cell-bg)" stroke="rgba(122, 0, 242, 0.2)" stroke-width="1" />
+      <!-- Pink/Purple Trophy Icon -->
+      <g transform="translate(20, 25)" filter="url(#trophy-glow)">
+        <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V19h3v2H7v-2h3v-2.07A6 6 0 0 1 6 11V6h12v5a6 6 0 0 1-5 5.93zM8 8H7V7h1zm0 2H7V9h1zm0 2H7v-1h1zm8-4h-1V7h1zm0 2h-1V9h1zm0 2h-1v-1h1z" fill="#ff4b91" />
+      </g>
+      <text x="75" y="42" font-size="13" font-weight="bold" fill="#ffffff">Clean Coder</text>
+      <text x="75" y="62" font-size="10.5" fill="#bcabbf">Rank: Amethyst (Consistent Styling)</text>
+      <text x="75" y="80" font-size="10.5" fill="#7a00f2" font-weight="bold">99% TEST PASS RATE</text>
+      
+      <!-- Shine layer -->
+      <g clip-path="url(#cell-clip-3)">
+        <rect width="270" height="110" fill="url(#shine-grad)" class="shine-rect shine-delay-3" pointer-events="none" />
+      </g>
+      <clipPath id="cell-clip-3"><rect width="270" height="110" rx="12" /></clipPath>
+    </g>
+  </g>
+</svg>
