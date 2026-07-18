@@ -16,8 +16,6 @@
 
   <!-- Profile Views Counter & Social Badges (Recolored to Cyan/Emerald theme) -->
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=AshikMadhu&color=00f0ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views">
-    &nbsp;
     <a href="mailto:ashiksjc2025@gmail.com">
       <img src="https://img.shields.io/badge/Email-ashiksjc2025%40gmail.com-00ff87?style=flat-square&logo=gmail&logoColor=black" alt="Email Badge">
     </a>
@@ -59,17 +57,5 @@
 
 </div>
 
-## ⚡ Developer Dashboard  
 
-<table width="100%" border="0">
-<tr>
-<td width="50%" valign="top">
 
-### 🧾 Profile  
-
-```yaml
-Name        : Ashik Madhu
-Role        : CSE Student
-Craft       : Web Experiences
-Trajectory  : Complete Systems
-Status      : Active 🚀
