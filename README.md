@@ -36,11 +36,18 @@
   <br>
   <hr width="80%" style="border: 1px solid rgba(0, 240, 255, 0.2);">
 
-  <!-- Local Stat & Language Cards Grid (Cyan/Emerald theme, Real Statistics) -->
+  <!-- Live Dynamic GitHub Stats & Streak Cards in custom Cyan/Emerald (blue/green) theme -->
   <p align="center">
-    <img src="stats.svg?v=2" alt="Ashik's GitHub Stats" width="440">
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=AshikMadhu&show_icons=true&bg_color=020617&title_color=00ff87&text_color=cbd5e1&icon_color=00f0ff&hide_border=true" alt="Ashik's GitHub Stats">
     &nbsp;&nbsp;
-    <img src="langs.svg?v=2" alt="Ashik's Language Stats" width="440">
+    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=AshikMadhu&background=020617&ring=00ff87&fire=00f0ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00f0ff&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="Ashik's Streak Stats">
+  </p>
+  
+  <br>
+  
+  <!-- Live Dynamic Top Languages Card -->
+  <p align="center">
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshikMadhu&layout=compact&bg_color=020617&title_color=00ff87&text_color=cbd5e1&icon_color=00f0ff&hide_border=true" alt="Ashik's Top Languages">
   </p>
 
   <br>
