@@ -46,6 +46,16 @@
   <br>
   <hr width="80%" style="border: 1px solid rgba(0, 240, 255, 0.2);">
 
+  <!-- Live Dynamic Contribution Activity Graph (Cyan/Emerald Theme) -->
+  <h3>📈 Contribution Activity</h3>
+  <br>
+  <p align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AshikMadhu&bg_color=020617&color=00ff87&line=00f0ff&point=ffffff&area=true&area_color=0f172a&hide_border=true&v=2" alt="GitHub Activity Graph" width="100%">
+  </p>
+
+  <br>
+  <hr width="80%" style="border: 1px solid rgba(0, 240, 255, 0.2);">
+
   <!-- Contribution Graph Snake Animation -->
   <h3>🐍 Contribution Snake Grid</h3>
   <br>
