@@ -2,14 +2,14 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0314" />
-      <stop offset="100%" stop-color="#1b0629" />
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0f172a" />
     </linearGradient>
     
     <!-- Border Gradient -->
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff4b91" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#7a00f2" stop-opacity="0.1" />
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.1" />
     </linearGradient>
     
     <!-- Glowing Soft Filter -->
@@ -26,15 +26,18 @@
     .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     
-    /* Loading language progress bars */
-    @keyframes load-bar {
-      from { width: 0px; }
-      to { width: var(--target-w); }
-    }
-    .bar-fill {
-      animation: load-bar 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-      width: 0;
-    }
+    /* Loading language progress bars (Explicit keyframes, no CSS variables) */
+    @keyframes load-bar-js {{ from {{ width: 0px; }} to {{ width: 220px; }} }}
+    @keyframes load-bar-py {{ from {{ width: 0px; }} to {{ width: 190px; }} }}
+    @keyframes load-bar-htmlcss {{ from {{ width: 0px; }} to {{ width: 155px; }} }}
+    @keyframes load-bar-cpp {{ from {{ width: 0px; }} to {{ width: 108px; }} }}
+    @keyframes load-bar-figma {{ from {{ width: 0px; }} to {{ width: 132px; }} }}
+
+    .bar-js {{ animation: load-bar-js 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
+    .bar-py {{ animation: load-bar-py 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
+    .bar-htmlcss {{ animation: load-bar-htmlcss 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
+    .bar-cpp {{ animation: load-bar-cpp 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
+    .bar-figma {{ animation: load-bar-figma 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }}
     
     /* Fading in text delays */
     @keyframes fade-in {
@@ -55,46 +58,46 @@
   <g transform="translate(25, 0)" class="font-sans">
     <!-- Header -->
     <text x="0" y="32" font-size="14" font-weight="900" fill="#ffffff" letter-spacing="1.5">MOST USED LANGUAGES</text>
-    <line x1="0" y1="42" x2="398" y2="42" stroke="#ff4b91" stroke-width="1" opacity="0.3" />
+    <line x1="0" y1="42" x2="398" y2="42" stroke="#00ff87" stroke-width="1" opacity="0.3" />
     
     <!-- JavaScript -->
     <g class="lang-item item-1" transform="translate(0, 68)">
       <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">JavaScript</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
-      <rect x="90" y="-10" height="8" rx="4" fill="#ff4b91" class="bar-fill" style="--target-w: 220px;" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#ff4b91" class="font-mono" text-anchor="end">91.6%</text>
+      <rect x="90" y="-10" height="8" rx="4" fill="#00f0ff" class="bar-js" filter="url(#lang-glow)" />
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#00f0ff" class="font-mono" text-anchor="end">91.6%</text>
     </g>
 
     <!-- Python -->
     <g class="lang-item item-2" transform="translate(0, 94)">
       <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">Python</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
-      <rect x="90" y="-10" height="8" rx="4" fill="#d400d4" class="bar-fill" style="--target-w: 190px;" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#d400d4" class="font-mono" text-anchor="end">79.2%</text>
+      <rect x="90" y="-10" height="8" rx="4" fill="#00ff87" class="bar-py" filter="url(#lang-glow)" />
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#00ff87" class="font-mono" text-anchor="end">79.2%</text>
     </g>
 
     <!-- CSS & HTML -->
     <g class="lang-item item-3" transform="translate(0, 120)">
       <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">CSS &amp; HTML</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
-      <rect x="90" y="-10" height="8" rx="4" fill="#7a00f2" class="bar-fill" style="--target-w: 155px;" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#7a00f2" class="font-mono" text-anchor="end">64.5%</text>
+      <rect x="90" y="-10" height="8" rx="4" fill="#3b82f6" class="bar-htmlcss" filter="url(#lang-glow)" />
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#3b82f6" class="font-mono" text-anchor="end">64.5%</text>
     </g>
 
     <!-- C++ -->
     <g class="lang-item item-4" transform="translate(0, 146)">
       <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">C / C++</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
-      <rect x="90" y="-10" height="8" rx="4" fill="#ff4b91" class="bar-fill" style="--target-w: 108px;" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#ff4b91" class="font-mono" text-anchor="end">45.0%</text>
+      <rect x="90" y="-10" height="8" rx="4" fill="#0d9488" class="bar-cpp" filter="url(#lang-glow)" />
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#0d9488" class="font-mono" text-anchor="end">45.0%</text>
     </g>
 
     <!-- Figma -->
     <g class="lang-item item-5" transform="translate(0, 172)">
       <text x="0" y="0" font-size="12" font-weight="bold" fill="#ffffff">Figma UI/UX</text>
       <rect x="90" y="-10" width="240" height="8" rx="4" fill="rgba(255,255,255,0.05)" />
-      <rect x="90" y="-10" height="8" rx="4" fill="#d400d4" class="bar-fill" style="--target-w: 132px;" filter="url(#lang-glow)" />
-      <text x="390" y="0" font-size="12" font-weight="bold" fill="#d400d4" class="font-mono" text-anchor="end">55.0%</text>
+      <rect x="90" y="-10" height="8" rx="4" fill="#84cc16" class="bar-figma" filter="url(#lang-glow)" />
+      <text x="390" y="0" font-size="12" font-weight="bold" fill="#84cc16" class="font-mono" text-anchor="end">55.0%</text>
     </g>
   </g>
 </svg>
