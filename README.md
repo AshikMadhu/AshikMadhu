@@ -33,18 +33,25 @@
 
   <hr width="80%" style="border: 1px solid rgba(0, 240, 255, 0.2);">
 
-  <!-- Local Stat & Language Cards Grid -->
+  <!-- Live Dynamic GitHub Stats & Streak Cards in custom Cyan/Emerald (blue/green) theme -->
   <p align="center">
-    <img src="stats.svg?v=1" alt="Ashik's GitHub Stats" width="440">
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=AshikMadhu&show_icons=true&bg_color=0f172a&title_color=00ff87&text_color=cbd5e1&icon_color=00f0ff&hide_border=true" alt="Ashik's GitHub Stats">
     &nbsp;&nbsp;
-    <img src="langs.svg?v=1" alt="Ashik's Language Stats" width="440">
+    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=AshikMadhu&background=0f172a&ring=00ff87&fire=00f0ff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00f0ff&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="Ashik's Streak Stats">
   </p>
   
   <br>
   
-  <!-- Achievement Trophies Card -->
+  <!-- Live Dynamic Top Languages Card -->
   <p align="center">
-    <img src="trophies.svg?v=1" alt="Ashik's Profile Achievements" width="900">
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshikMadhu&layout=compact&bg_color=0f172a&title_color=00ff87&text_color=cbd5e1&icon_color=00f0ff&hide_border=true" alt="Ashik's Top Languages">
+  </p>
+
+  <br>
+  
+  <!-- Live Dynamic Activity Graph -->
+  <p align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AshikMadhu&bg_color=0f172a&color=00ff87&line=00f0ff&point=ffffff&area=true&area_color=00ff87&hide_border=true" alt="GitHub Activity Graph" width="100%">
   </p>
 
   <br>
